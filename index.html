@@ -1,69 +1,84 @@
-<!DOCTYPE html>
-<!-- saved from url=(0058)https://api.geoticket.it/ticket/check/CkWyPtSCXthnTz86QAo4 -->
-<html lang="it"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Dettagli ordine · GeoTicket</title>
-    
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta name="description" content="">
-    <meta name="google" content="notranslate">
-    <meta name="theme-color" content="#FF8F00">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <link href="https://api.geoticket.it/image/favicon.ico" rel="icon">
-    <link href="./src/bootstrap.min.css" rel="stylesheet">
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Errore di caricamento</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      min-height: 100svh;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      background: #f5f7fa;
+      color: #202b3c;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+    }
+    main {
+      width: 100%;
+      max-width: 480px;
+      padding: 40px;
+      border: 1px solid #e2e7ee;
+      border-radius: 16px;
+      background: #fff;
+      box-shadow: 0 8px 32px rgb(32 43 60 / 5%);
+    }
+    .icon {
+      display: grid;
+      place-items: center;
+      width: 48px;
+      height: 48px;
+      margin-bottom: 24px;
+      border-radius: 12px;
+      color: #526176;
+      background: #edf1f6;
+    }
+    h1 { margin: 0 0 12px; font-size: clamp(1.5rem, 5vw, 1.75rem); line-height: 1.25; letter-spacing: -.025em; }
+    p { margin: 0; color: #566276; }
+    button {
+      margin-top: 28px;
+      min-height: 46px;
+      padding: 11px 24px;
+      border: 1px solid #263e63;
+      border-radius: 8px;
+      background: #263e63;
+      color: #fff;
+      font: inherit;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    button:hover { background: #1b2e4c; }
+    button:active { background: #14243c; }
+    button:focus-visible { outline: 3px solid #719bdb; outline-offset: 4px; }
+    .details { margin-top: 28px; padding-top: 20px; border-top: 1px solid #e9edf2; font-size: .8125rem; color: #657186; }
+    code { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: .8125rem; }
+    noscript p { margin-top: 16px; font-size: .875rem; }
+    @media (max-width: 480px) {
+      body { padding: 16px; }
+      main { padding: 28px 24px; }
+      button { width: 100%; }
+    }
+  </style>
 </head>
 <body>
-<div class="container-fluid" style="margin-top: 32px; margin-bottom: 32px">
-    <img src="./src/logo.png" style="max-width: 264px; width: 100%" class="rounded mx-auto d-block">
-</div>
-    
-        <div class="container">
-            <h4>Dettagli ordine</h4>
-            <br>
-            <table class="table table-bordered">
-                <tbody><tr class="table-light">
-                    <td>Ticket n° <span class="text-green" style="font-size: 17px; font-weight: bold">39/online</span>
-                    </td>
-                </tr>
-                <tr class="table-light">
-                    <td>Data acquisto 04/10/2026 05:07</td>
-                </tr>
-                <tr>
-                    <td>Data
-                        utilizzo dal 04/10/2026 al 04/10/2026</td>
-                </tr>
-            </tbody></table>
-            <br>
-            <b>Cliente</b>
-            <span>Sig. <b class="text-green">Lorenzo Baronti</b></span><br>
-                            <span>Assegnato a:
-                <b class="text-green"> Lorenzo Baronti</b></span>
-                        <br>
-            <br>
-
-            <table class="table table-bordered">
-                <tbody><tr class="table-light">
-                    <td>Prodotto</td>
-                    <td style="width: 0">Quantità</td>
-                    <td style="width: 0">Prezzo unitario</td>
-                    <td style="width: 0">Prezzo totale</td>
-                </tr>
-                <tr>
-                    <td><b>Giornaliero</b> <span></span></td>
-                    <td>1</td>
-                    <td>€ 18,00</td>
-                    <td>18,00</td>
-                </tr>
-                <tr>
-                    <td colspan="3" align="right">Totale</td>
-                    <td>18,00</td>
-                </tr>
-            </tbody></table>
-        </div>
-    <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9940e58cdf0bea6b',t:'MTc2MTM4NjczOA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border: none; visibility: hidden;" src="./src/saved_resource.html"></iframe>
-<script src="./src/jquery.min.js.download" type="text/javascript"></script>
-<script src="./src/router.min.js.download" type="text/javascript"></script>
-<script src="./src/routing"></script>
-<script src="./src/bootstrap-notify.js.download" type="text/javascript"></script>
-
-</body></html>
+  <main aria-labelledby="error-title">
+    <div class="icon" aria-hidden="true">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="9"/>
+        <path d="M12 7.5v5"/>
+        <path d="M12 16h.01"/>
+      </svg>
+    </div>
+    <h1 id="error-title">Errore di caricamento</h1>
+    <p>La pagina non è stata caricata correttamente. Riprova tra qualche istante.</p>
+    <button type="button" onclick="window.location.reload()">Riprova</button>
+    <noscript><p>Per riprovare, ricarica la pagina usando il comando del browser.</p></noscript>
+    <p class="details">Codice errore: <code>LOAD_ERROR</code></p>
+  </main>
+</body>
+</html>
